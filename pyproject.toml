@@ -7,10 +7,10 @@ readme = "README.md"
 packages = [{include = "sword_sim"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-matplotlib = "^3.9.2"
+python = "<3.13,>=3.10"
 gymnasium = "^1.0.0"
-jupyterlab = "^4.3.0"
+manim = "^0.18.1"
+pygame = "^2.6.1"
 
 
 [build-system]
